@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase</title>
+    <style>
+      span {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    Getting Started with Firebase
+    <form class="add">
+      <label for="title">title</label>
+      <input type="text" name="title" id="title" required />
+      <label for="author">author</label>
+      <input type="text" name="author" id="author" required />
+      <button>add book</button>
+    </form>
+    <br />
+    <form class="delete">
+      <label for="docid">docID</label>
+      <input type="text" name="docID" id="docid" required />
+      <button>Delete book</button>
+    </form>
+    <br />
+    <br />
+    <form class="update">
+      <label for="docID">docID</label>
+      <input type="text" name="docID" id="docID" />
+      <label for="Title">Title</label>
+      <input type="text" name="Title" id="Title" />
+      <label for="Author">Author</label>
+      <input type="text" name="Author" id="Author" />
+      <button>update</button>
+    </form>
+    <ul class="books"></ul>
+    <script src="bundle.js"></script>
+  </body>
+</html>
